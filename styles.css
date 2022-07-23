@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #54506A;
+}
+
+body {
+  background: linear-gradient(60deg, #E5C1CD, #F3DBCF);
+}
+
+input, textarea, select, label {
+  display: block;
+  width: 100%;
+}
+
+input, textarea, select {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #54506A;
+  padding: 0.2rem;
+}
+
+textarea {
+  height: 6rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.header > h1 {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.survey-form {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.survey-form fieldset {
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.survey-form label, .survey-form p {
+  margin-bottom: 0.5rem;
+}
+
+.survey-form input[type="submit"] {
+  width: auto;
+  padding: 0.7rem 2rem;
+  margin: 2rem auto 0 auto;
+  background: linear-gradient(60deg, #E5C1CD, #F3DBCF);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

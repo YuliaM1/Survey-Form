@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Blog readers survey</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <body>
+      <div class="container">
+         <div class="header">
+            <h1 id="title">Blog readers survey</h1>
+            <p id="description">
+               Your participation will help improve the blog's e-mail newsletter
+            </p>
+            <p>♥</p>
+         </div>
+         <form id="survey-form" class="survey-form">
+            <fieldset>
+               <label id="name-label" for="name">Name</label>
+               <input id="name" type="text" placeholder="Name" required />
+            </fieldset>
+            <fieldset>
+               <label id="email-label" for="email">Email</label>
+               <input id="email" type="email" placeholder="Email" required />
+            </fieldset>
+            <fieldset>
+               <label id="number-label" for="number">Age</label>
+               <input
+                  id="number"
+                  type="number"
+                  min="0"
+                  max="120"
+                  placeholder="Age"
+                  required
+               />
+            </fieldset>
+            <fieldset>
+               <p>Are you subscribed to the e-mail newsletter?</p>
+               <label
+                  ><input
+                     type="radio"
+                     name="subscription"
+                     value="yes"
+                     checked
+                  />
+                  Yes</label
+               >
+               <label
+                  ><input type="radio" name="subscription" value="no" />
+                  No</label
+               >
+            </fieldset>
+            <fieldset>
+               <label for="dropdown"
+                  >How often do you want to receive the e-mail
+                  newsletter?</label
+               >
+               <select id="dropdown" name="frequency" required>
+                  <option disabled selected value="">
+                     Select the frequency
+                  </option>
+                  <option value="once">Once a week</option>
+                  <option value="twice">Twice a week</option>
+                  <option value="three-times">Three times a week</option>
+               </select>
+            </fieldset>
+            <fieldset>
+               <p>What would you like to see in the e-mail newsletter?</p>
+               <label
+                  ><input type="checkbox" name="topics" value="IT" /> IT
+                  news</label
+               >
+               <label
+                  ><input type="checkbox" name="topics" value="journeys" />
+                  Journeys</label
+               >
+               <label
+                  ><input type="checkbox" name="topics" value="houseplants" />
+                  Houseplants</label
+               >
+               <label
+                  ><input type="checkbox" name="topics" value="book-reviews" />
+                  Book reviews</label
+               >
+               <label
+                  ><input type="checkbox" name="topics" value="life-hacks" />
+                  Life hacks</label
+               >
+            </fieldset>
+            <fieldset>
+               <label for="comment">Any comments or suggestions?</label>
+               <textarea
+                  id="comment"
+                  placeholder="Your comment"
+                  name="comment"
+               ></textarea>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" />
+         </form>
+      </div>
+   </body>
+</html>
