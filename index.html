@@ -9,25 +9,24 @@
    <body>
       <div class="container">
          <div class="header">
-            <h1 id="title">Blog readers survey</h1>
-            <p id="description">
+            <h1>Blog readers survey</h1>
+            <p>
                Your participation will help improve the blog's e-mail newsletter
             </p>
             <p>♥</p>
          </div>
-         <form id="survey-form" class="survey-form">
+         <form class="survey-form">
             <fieldset>
-               <label id="name-label" for="name">Name</label>
-               <input id="name" type="text" placeholder="Name" required />
+               <label for="name">Name</label>
+               <input type="text" placeholder="Name" required />
             </fieldset>
             <fieldset>
-               <label id="email-label" for="email">Email</label>
-               <input id="email" type="email" placeholder="Email" required />
+               <label for="email">Email</label>
+               <input type="email" placeholder="Email" required />
             </fieldset>
             <fieldset>
-               <label id="number-label" for="number">Age</label>
+               <label for="number">Age</label>
                <input
-                  id="number"
                   type="number"
                   min="0"
                   max="120"
@@ -56,7 +55,7 @@
                   >How often do you want to receive the e-mail
                   newsletter?</label
                >
-               <select id="dropdown" name="frequency" required>
+               <select name="frequency" required>
                   <option disabled selected value="">
                      Select the frequency
                   </option>
@@ -90,13 +89,9 @@
             </fieldset>
             <fieldset>
                <label for="comment">Any comments or suggestions?</label>
-               <textarea
-                  id="comment"
-                  placeholder="Your comment"
-                  name="comment"
-               ></textarea>
+               <textarea placeholder="Your comment" name="comment"></textarea>
             </fieldset>
-            <input id="submit" type="submit" value="Submit" />
+            <input type="submit" value="Submit" />
          </form>
       </div>
    </body>
