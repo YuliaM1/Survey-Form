@@ -28,7 +28,7 @@ input, textarea, select {
 }
 
 textarea {
-  height: 6rem;
+  height: 100px;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -39,12 +39,12 @@ input[type="radio"], input[type="checkbox"] {
 
 .container {
   max-width: 600px;
-  margin: 3rem auto;
-  padding: 0 1rem;
+  margin: 60px auto;
+  padding: 0 40px;
 }
 
 .header {
-  margin-bottom: 2rem;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .survey-form {
-  padding: 2rem;
+  padding: 40px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
 }
